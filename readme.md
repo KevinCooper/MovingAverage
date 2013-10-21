@@ -5,26 +5,26 @@ This is the implementation of a data structure that keeps a moving average.  To 
 
 `avgArray_t buildMovingAverage(int numOfSamples)`
 
->Adds a new sample to be kept in the Moving average MovingAverage
+>Adds a new sample to be kept in the Moving average MovingAverage<br>
 `void addSample(avgArray_t *array, int sample)`
 
->Returns the smallest value in the MovingAverage
+>Returns the smallest value in the MovingAverage<br>
 `int maxValue(avgArray_t *array)`
 
->Returns the largest value in the MovingAverage
+>Returns the largest value in the MovingAverage<br>
 `int minValue(avgArray_t *array)`
 
->Returns the max value in the array passed.
+>Returns the max value in the array passed.<br>
 `int maxValueArray(int *array, int size)`
 
->Returns the smallest value in the array passed
+>Returns the smallest value in the array passed<br>
 `int minValueArray(int *array, int size)`
 
->Returns the range of values in the MovingAverage
+>Returns the range of values in the MovingAverage<br>
 `int range(avgArray_t *array)`
 
->Returns a random unsigned long integer
+>Returns a random unsigned long integer<br>
 `unsigned long int randInt(void)`
 
->Returns the average of the values in the MovingAverage
+>Returns the average of the values in the MovingAverage<br>
 `int movingAverage(avgArray_t *array)`
