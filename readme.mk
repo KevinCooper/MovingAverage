@@ -1,0 +1,1 @@
+This is the implementation of a data structure that keeps a moving average.  To use the following file, create the data structure by using buildMovingAverage(N), where N is the number of samples that you want it to average.  The results of the average cannot be guaranteed until you enter in as many value as your moving average is supposed to keep track of.
