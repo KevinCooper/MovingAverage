@@ -14,10 +14,10 @@ Returns the smallest value in the MovingAverage<br>
 Returns the largest value in the MovingAverage<br>
 `int minValue(avgArray_t *array)`
 
-Returns the max value in the array passed.<br>
+Returns the max value in the array pointer passed.<br>
 `int maxValueArray(int *array, int size)`
 
-Returns the smallest value in the array passed<br>
+Returns the smallest value in the array pointer passed<br>
 `int minValueArray(int *array, int size)`
 
 Returns the range of values in the MovingAverage<br>
